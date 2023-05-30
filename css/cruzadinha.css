@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../img/84631.jpg');
+    background-size: 175vw;
+}
+
+.container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff1bd;
+}
+
+.cruzada-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+}
+
+.cruzada-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 95%;
+}
+
+.cruzada-item table {
+    text-align: center;
+}
+
+.cruzada-item table tr td {
+    font-weight: 800;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#blank {
+    border: none;
+}
+
+.palavra1 {
+    background: red;
+    color:red;
+}
+
+.palavra2 {
+    background: red;
+    color: red;
+}
+
+.palavra3 {
+    background: red;
+    color: red;
+}
+
+.palavra4 {
+    background: red;
+    color:red;
+}
+
+.palavra5 {
+    background: red;
+    color: red;
+}
+
+
+.palavra6 {
+    background: red;
+    color:red;
+}
+
+.palavra7 {
+    background:red;
+    color: red;
+}
+
+.palavra8 {
+    background: red;
+    color: red;
+}
+
+.palavra9 {
+    background:red;
+    color:red;
+}
+
+.palavra10 {
+    background: red;
+    color: red;
+}
+
+.palavra11 {
+    background:red;
+    color: red;
+}
+
+.palavra12 {
+    background: red;
+    color: red;
+}
+
+.palavra13 {
+    background: red;
+    color: red;
+}
+
+.palavra14 {
+    background:red;
+    color: red;
+}
+
+.palavra15 {
+    background: red;
+    color: red;
+}
+
+.palavra16 {
+    background: red;
+    color: red;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    background-color: red;
+}
+
+.formulario input {
+    outline: none;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10%;
+    border: 2px solid black;
+}
+
+.formulario button {
+    width: 10%;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 1%;
+    background-color: rgba(80, 10, 100, 0.8);
+    color: black;
+}
+
+#cruza {
+    text-align: center;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h2{
+    font-size: 30px;
+    top: 2opx;
+    background-color: white;
+}

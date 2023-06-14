@@ -23,7 +23,7 @@
         <div class="formulario">
             <h3 id="cruza"></h3> <br>
             <input type="text" placeholder="Digite sua Resposta" id="palavra">
-            <button id="btnEnviar">Enviar</button>
+            <button id="butEnviar">Enviar</button>
         </div><br><br>
         <div class="cruzada-container">
             <div class="cruzada-item">
@@ -461,7 +461,7 @@ var perguntas = ["Também é conhecido como processador. Ele realiza todas as op
 
 var classesDivs = [".palavra1", ".palavra2", ".palavra3", ".palavra4", ".palavra5", ".palavra6", ".palavra7", ".palavra8", ".palavra9", ".palavra10", ".palavra11", ".palavra12", ".palavra13", ".palavra14"];
 
-var btnEnviar = document.getElementById("btnEnviar");
+var btnEnviar = document.getElementById("butEnviar");
 var dicasTxt = document.getElementById("cruza");
 var contador = 0;
 
@@ -478,8 +478,9 @@ btnEnviar.addEventListener("click", () => {
             document.querySelectorAll(classesDivs[contador]).forEach(item => {
                 item.style.color = "black";
             })
-            contador++;
+           
             dicasTxt.innerHTML = perguntas[contador];
+             contador++;
         } else {
             alert("Tente Novamente");
         }
